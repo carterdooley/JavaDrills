@@ -22,7 +22,25 @@ public class Main {
         purse -= aTenth;
         System.out.println(purse);
 //    LightSaber Part 3
-        
+    String bladeColor = "purple";
+    String handleColor = "black";
+
+    if (bladeColor == "purple" && handleColor == "black"){
+        System.out.println("This is the one");
+    } else {
+        System.out.println("Pass");
+    }
+
+//  Spaceship
+    String shipName = "Mellenium Falcon";
+
+    if(shipName == "Mellenium Falcon"){
+        System.out.println("Let's go");
+    } else {
+        System.out.println("I better hide somewhere");
+    }
+
+
     }
 }
 
