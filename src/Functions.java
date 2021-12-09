@@ -3,7 +3,7 @@ public class Functions {
     helloWorld();
     greeting("Carter");
     add(1,2);
-    favColor("black");
+    favColor("Black");
     oddIndeed(5);
     }
 
@@ -25,11 +25,11 @@ public class Functions {
     }
 
     private static void favColor(String color){
-        if(color.equals("red") || color.equals("Red")){
+        if(color.equalsIgnoreCase("red")){
             System.out.println("Red is a great color");
-        } else if (color.equals("green") || color.equals("Green")){
+        } else if (color.equalsIgnoreCase("green")){
             System.out.println("Green is a solid color");
-        } else if (color.equals("black")|| color.equals("Black")){
+        } else if (color.equalsIgnoreCase("black")){
             System.out.println("So trendy");
         } else {
             System.out.println("You need a new favorite color");
